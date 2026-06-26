@@ -3,7 +3,7 @@ name: Pipeline Tienda Perritos (Build & Push a ECR)
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   AWS_REGION: us-east-1 # Cambia esto si tu AWS está en otra región (ej. us-east-2)
